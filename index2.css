@@ -1,0 +1,205 @@
+body{
+	display: block;
+	background-image: url("SrecBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.headDiv{
+	display : flex;
+	justify-content: center;
+	border-bottom: 2px solid black;
+}
+.sreclogo{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+.t1{
+	font-size: 20px;
+	padding-left:120px ;
+}
+h1{
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+h2{
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+.dateDiv{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.wholeDiv{
+	display: block;
+	margin:50px auto;
+	text-align: center;
+}
+.div1{
+	display:block;
+	width: 400px;
+	padding:20px;
+	margin:10px auto;
+	border:2px solid black;
+	border-radius: 20px;
+	box-shadow: 8px 7px 30px black;
+	background-color: #f8f8f8;
+    background-image: linear-gradient(60deg, #304A34, #FFFFB3, #FEFCFD, #FF0035);
+    background-size: 400% 400%;
+    animation: gradientAnimation 13s infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.flexdiv{
+	display:flex;
+	justify-content:start;
+	align-items: center;
+}
+
+.flexdiv2{
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+}
+.label{
+	margin-left: 8px;
+	padding-top: 8px;
+	font-size: 14px;
+	font-family: "Helvetica";
+	font-weight: bold;
+}
+.minitext{
+	height: 20px;
+	justify-content: center;
+	border-radius: 5px;
+	margin-top: 13px;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textBox{
+
+	width: 220px;
+}
+.rollnoDiv{
+	width:100px;
+}
+.b1{
+	height: 30px;
+	margin-top: 13px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: 0.2s ease-in-out;
+}
+.b1:hover{
+    background-color: #279EFF;
+    color: white;
+    cursor:pointer;
+}
+.smaindiv{
+	height: 30px;
+	width: 30px;
+	background-image: url(tickmark.gif);
+}
+.wholeDiv2{
+	display: block;
+	width: 250px;
+	height:70px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:60px;
+}
+.initialButton{
+	padding: 5px 10px;
+	border-radius: 15px;	
+	font-size: 17px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: 0.2s ease;
+}
+.initialButton:hover{
+	background-color: #279EFF;
+    color: white;
+    cursor:pointer;
+}
+
+.disdiv{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:70px;
+	width:100px;
+	border:3px solid black;
+}
+
+table {
+	text-align: justify;
+	background-color: whitesmoke;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	border-radius: 5px;
+}
+
+  
+th, td {
+	
+	padding: 8px;
+	text-align: flex;
+	border-bottom: 1px solid #DDD;
+	border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+.aButton{
+	border-radius: 5px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: 0.2s ease-in-out;
+}
+.aButton:hover{
+	background-color: #6bcc0b;
+    color: white;
+    cursor:pointer;
+}
+
+.dButton{
+	border-radius: 5px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: 0.2s ease-in-out;
+}
+.dButton:hover{
+	background-color: #d00000;
+    color: white;
+    cursor:pointer;
+}
+
+.dor:hover {background-color: #D6EEEE;}
+
+.tab1{
+	background-color: whitesmoke;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	border-radius: 5px;
+	text-align: center;
+}

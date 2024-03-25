@@ -1,0 +1,193 @@
+body{
+	display: block;
+	background-image: url("SrecBackground.jpg");
+	background-repeat:repeat-x;
+	background-size: cover;
+}
+.headDiv{
+	display : flex;
+	justify-content: center;
+	border-bottom: 2px solid black;
+}
+.sreclogo{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+.t1{
+	font-size: 20px;
+	padding-left:120px;
+}
+h1{
+	font-size: 30px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+h2{
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: lighter;
+}
+.dateDiv{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.align{
+	margin-left: 700px;
+}
+.align2{
+	margin-left: 620px;
+}
+.wholeDiv{
+	display: block;
+	margin:50px auto;
+	text-align: center;
+}
+.approvalDiv{
+	margin-top: 100px;
+	justify-content: sp;
+	align-items: start;
+}
+.div1{
+	display:block;
+	width: 400px;
+	padding:20px;
+	margin:10px auto;
+	border:2px solid black;
+	border-radius: 20px;
+	box-shadow: 8px 7px 30px black;
+	background-color: #f8f8f8;
+    background-image: linear-gradient(60deg, #304A34, #FFFFB3, #FEFCFD, #FF0035);
+    background-size: 400% 400%;
+    animation: gradientAnimation 13s infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.flexdiv{
+	display:flex;
+	justify-content:start;
+	align-items: center;
+}
+
+.label{
+	margin-left: 8px;
+	padding-top: 8px;
+	font-size: 17px;
+	font-family: "Helvetica";
+	font-weight: bold;
+}
+.buttonDiv{
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-evenly;
+}
+.aButton{
+	height: 30px;
+	margin-top: 13px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: 0.2s ease-in-out;
+}
+.aButton:hover{
+	background-color: #70e000;
+    color: white;
+    cursor:pointer;
+}
+
+.dButton{
+	height: 30px;
+	margin-top: 13px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: 0.2s ease-in-out;
+}
+.dButton:hover{
+	background-color: #d00000;
+    color: white;
+    cursor:pointer;
+}
+
+.logoutDiv{
+	display: block;
+	margin-left: 1350px;
+	height: 40px;
+	width: 90px;
+}
+
+.log{
+	display: flex;
+	justify-content: center;
+	padding: 4px 2px;
+	background-color: whitesmoke;
+	color: black;
+	height: 30px;
+	margin-top: 13px;
+	margin-right: 2px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 19px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: 0.2s ease-in-out;
+}
+.log:hover{
+	background-color: red;
+    color: white;
+    cursor:pointer;
+}
+
+.disdiv{
+	display: flex;
+	justify-content: center;
+	padding: 4px 2px;
+	color: black;
+	height: 30px;
+	margin-top: 70px;
+	margin-left: 2px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 55px;
+	font-family: unset;
+}
+
+.title{
+	display: flexbox;
+	justify-content: center;
+	padding: 4px 2px;
+	color: black;
+	height: 30px;
+	margin-top: 70px;
+	margin-left: 2px;
+	padding: 5px 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 19px;
+	font-weight: bold;
+	font-style: inherit;
+
+}
+
+.date{
+margin-bottom: 0px;
+margin-left: 50%;
+margin-right: 50%;
+display: inline-block;
+margin-inline-end: auto;
+
+}
